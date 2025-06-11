@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Адаптивна навігація</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">МійСайт</div>
+      <div class="burger" onclick="toggleMenu()">☰</div>
+      <div class="menu" id="menu">
+        <a href="#" class="active">Головна</a>
+        <a href="#">Про нас</a>
+        <div class="submenu">
+          <a href="#">Послуги ▾</a>
+          <div class="submenu-content">
+            <a href="#">Веб-дизайн</a>
+            <a href="#">Розробка</a>
+          </div>
+        </div>
+        <a href="#">Контакти</a>
+        <div class="search-box">
+          <input type="text" placeholder="Пошук...">
+        </div>
+      </div>
+
